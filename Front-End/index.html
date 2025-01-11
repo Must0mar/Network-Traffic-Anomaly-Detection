@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Anomaly Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="Script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <a class="text-link" href="email.html" data-key="email-settings"><span>Email Settings</span></a>
+        <h1 data-key="title">Network Anomaly Detection System</h1>
+        <a class="text-link" id="lang-button" href="#">
+            <span id="lang-en" onclick="changeLanguage('en')">EN</span>
+            | <span id="lang-ku" onclick="changeLanguage('ku')">KU</span>
+            | <span id="lang-ar" onclick="changeLanguage('ar')">AR</span>
+        </a>
+    </div>
+    <div class="message">
+        <h2>Anomaly Detected !!</h2>
+        <p>You are under attack</p>
+    </div>
+    <div class="instructions">
+        <h2 data-key="welcome">Welcome to the Home Network Traffic Anomaly Detection System</h2>
+        <p data-key="intro">
+            This system is designed to ensure the security and reliability of your home network. It uses a trained machine learning model to monitor network traffic in real-time and detect anomalies or potential attacks.
+        </p>
+        <p data-key="email-notification">
+            As soon as an anomaly is detected, the system will automatically send an email notification to the user. The email will include detailed information about the detected attack and specific instructions on how to respond to the threat effectively.
+        </p>
+        <p data-key="explore-dashboard">
+            Explore the dashboard to view key metrics such as total network packets, protocol distribution, and details about detected anomalies. Use the email settings to customize notifications and stay informed about the security status of your home network.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="card" id="total-packets-card">
+            <h3 data-key="packets">Packets</h3>
+            <p id="total-packets">Loading...</p>
+        </div>
+
+        <div class="card" id="protocol-distribution-card">
+            <h3 data-key="protocol-distribution">Protocol Distribution</h3>
+            <div id="protocol-details">Loading...</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card" id="total-anomalies-card">
+            <h3 data-key="total-anomalies">Total Anomalies</h3>
+            <p id="total-anomalies">Loading...</p>
+        </div>
+
+        <div class="card" id="anomalies-details-card">
+            <h3 data-key="anomalies">Anomalies</h3>
+            <div id="anomalies-details">Loading...</div>
+        </div>
+    </div>
+</body>
+</html> 

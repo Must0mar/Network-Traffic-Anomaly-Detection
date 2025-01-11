@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.text-link {
+    text-decoration: none;
+    float: left;
+    color: black;
+}
+
+#lang-button {
+    float: right;
+}
+
+.header h1 {
+    color: black;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccccc;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.header span {
+    font-size: 1.2em;
+}
+
+.instructions {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    line-height: 1.8;
+}
+
+.instructions h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.instructions p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.message {
+    display: none;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5cece;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    line-height: 1.8;
+}
+
+.message h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.message p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background-color: #d9d9d9;
+    border: 1px solid #bfbfbf;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.anomaly-details {
+    text-align: left;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.email-card {
+    background-color: #e6e6e6;
+    border: 1px solid #bfbfbf;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.email-card h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.email-list {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.email-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.email-buttons button {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.email-buttons .save {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.email-buttons .cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+.email-buttons .add {
+    background-color: #4453c6;
+    color: white;
+}
